@@ -315,6 +315,8 @@ void TriggerObjectStandAlone::unpackPathNames(const edm::TriggerNames &names) {
         }
     }
     unsigned int n = pathIndices_.size(), end = names.size();
+
+    //std::cout << "PATH INDICES: " << n << "  NAMES SIZE: " << end << std::endl; 
     std::vector<std::string> paths(n); 
     for (unsigned int i = 0; i < n; ++i) {
         if (pathIndices_[i] >= end) throw cms::Exception("RuntimeError", "Error, path index out of bounds");
