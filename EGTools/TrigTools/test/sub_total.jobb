@@ -1,0 +1,1 @@
+condor_submit /afs/cern.ch/work/r/rselvati/private/Effi/HCALIsoTuning/CMSSW_13_0_5_patch1/src/EGTools/TrigTools/test/condor_cluster.sub

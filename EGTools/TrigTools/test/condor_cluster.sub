@@ -1,0 +1,7 @@
+executable = $(filename)
+arguments = $Fp(filename) $(ClusterID) $(ProcId)
+output = $Fp(filename)hlt.stdout
+error = $Fp(filename)hlt.stderr
+log = $Fp(filename)hlt.log
++JobFlavour = "workday"
+queue filename matching (/afs/cern.ch/work/r/rselvati/private/Effi/HCALIsoTuning/CMSSW_13_0_5_patch1/src/EGTools/TrigTools/test/Jobs/*/Job_*/*.sh)
